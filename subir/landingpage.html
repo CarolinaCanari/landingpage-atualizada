@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Vuntura</title>
+        <link rel="stylesheet" href="vuntura.css">
+     </head>
+
+     <body>
+        <header class="header">
+            <div class="container">
+                <ul class="grid-14">
+                  <li>Você é fornecedor de garrafas de vidro?</li>
+                  <li>Quer aumentar o número de clientes?</li>
+                  <li>A Vuntura pode ajudar!</li>
+                 </ul>
+       </div>
+    </header>
+   
+  <section class="home container">
+    <div class="grid-14">
+            <h1>Faça parte da nossa equipe!</h1>
+          </div>
+</section>
+
+    <section class="topicos container">
+        <div class="lista grid-7">
+            <h2>O que estamos oferecendo:</h2>
+
+            <ul class="topico">
+            <li>
+                      <h3>Maior visibilidade</h3>
+                    <p>Seja mais visto com seus modelos de garrafas disponíveis em nosso site.</p>
+            </li>
+               
+                 <li>
+                     <h3>Mais clientes</h3>                       
+                         <p>Seja mais visto com seus modelos de garrafas disponíveis em nosso site.</p>
+            
+                  <li>
+                      <h3>Logística simplificada</h3>
+                      <p>Seja mais visto com seus modelos de garrafas disponíveis em nosso site.</p>
+           </ul>	
+           </div>
+           <div class="formulario container">
+            <form id="formulario-dados" method="POST" actin="./enviar.php" class="form grid-8 formphp">
+                <label for="name">Nome da Empresa</label>
+                <input type="text" id="name" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+
+                <label class="nao-aparece"> Se você não é um robô, deixe em branco</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robo, não mude este campo.</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+             
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button id="enviar" name="enviar"  type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+        </section>
+
+        <footer>
+            <div class="rodape container">
+            <p>Alguns direitos reservados. Vuntura 2022</p>
+            </div>
+        </footer>
+    </body>
+
+</html>

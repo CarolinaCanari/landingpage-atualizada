@@ -1,0 +1,167 @@
+
+
+/* Landing Page Fornecedores */
+.header img {
+padding-left: 55%;
+padding-left: 45%;
+padding-top: 10px;
+padding-bottom: 10px;
+ }
+
+.home {
+background-color:#4C9B73; /*verde*/ 
+padding-bottom:20px;
+padding-top:20px;
+max-width:100%;
+margin-bottom: 50px;
+}
+
+.home li {
+ font-family:Century;
+ font-size: 24px;
+ text-align: right;
+ line-height: 32px;
+ color:#fff; 
+ padding-bottom: 15px;
+ word-spacing: 8px;
+}
+
+
+.topicos h2 {
+    font-family:cambria;
+    font-size: 28px;
+    line-height: 30px;
+    color:#574B4B;
+    padding-bottom:10px;  
+    text-align: center;   
+    padding-right: 120px;
+ }  
+
+ .lista ul {
+     list-style-image: url("../img/garrafa.png");
+     }
+
+
+.topicos li {
+    font-family:cambria;
+    font-size: 25px;
+    line-height: 32px;
+    color:#4C9B73;   
+    padding-top:25px;
+   }
+
+.topicos p {
+    font-family:century;
+    font-size: 18px;
+    line-height: 20px;
+    color:#574B4B;   
+    margin-top:10px;
+    margin-right: 20px;
+    text-align: left;
+   }
+
+.formulario h2 {
+    color:#4C9B73;   
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.form {
+    padding-left: 20px;
+    background-color:#4C9B73;
+    border-radius: 10px;  
+}   
+
+.formulario-dados {
+padding-bottom: 10px;
+padding-top:15px;
+}
+
+
+.form label {
+display: block;
+color: #fff;
+font-family: calibri;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: .1em;
+margin-top: 15px;
+
+}
+
+.form input {
+display: block;
+font-family: calibri;
+width: 85%;
+color:#000;
+padding: 7px 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+outline: none;
+font-size: 14px;
+border: 4px;
+border-radius: 10px;
+}
+
+.form textarea {
+display: block;
+width: 85%;
+height: 120px;
+color:#000;
+padding: 7px 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+outline: none;
+font-size: 14px;
+border-radius: 10px;
+border: none;
+}
+
+.form button {
+padding: 10px 40px; 
+background-color:#fff;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+
+.btn {
+	border:2px solid #4C9B73;
+	padding: 10px 38px;
+	color:#4c9b73;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: .1em;
+    font-family: calibri;
+}
+
+.btn:hover {
+	color:#574B4b;
+	border-color: #574B4B;
+    }
+
+footer {
+ margin-top: 20px;
+ background-color:#4C9B73; /*verde*/ 
+ padding: 12px;
+   }
+
+
+.rodape  p {
+    font-family:cambria;
+    font-size: 16px;
+    line-height: 20px;
+    color:#fff;   
+    text-align: center;
+    }
+
+.nao-aparece {
+        visibility: hidden;
+        height: 0px;
+        position: absolute;
+        max-width: 5px;
+   }
+   
+   

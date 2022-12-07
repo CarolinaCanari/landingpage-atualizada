@@ -1,0 +1,37 @@
+.interna_minerais {
+background: url("../img/home-minerais.jpg") no-repeat center;
+background: cover;
+
+}
+
+.modelo-garrafas h1{
+	color:#000;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+.modelo-garrafas p {
+	color:#000;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.garrafas-lista li{
+	color:#000;
+	font-size: 14px;
+	padding-top: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+ 
+
+
+
